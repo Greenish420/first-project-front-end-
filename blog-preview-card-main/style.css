@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    border-radius: 40px;
+    box-shadow: 15px 15px 0 black;
+    outline: 1px solid black;
+}
+body{
+    font-family: figtree-m;
+    background-color: #f4d04eff;
+    height: 100vh;
+}
+.details-container h1{
+ font-family: figtree;
+ transition: all 200ms;
+}
+.details-container h1:hover{
+    color: #f4d04eff;
+    cursor: pointer;
+}
+.m7nk{
+    font-family: figtree;
+    font-weight: 700;
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.m7nk img{
+
+    width: 50px;;
+    
+}
+.image-container{
+    width: 100%;
+}
+.image-container img{
+    width: inherit;
+    border-radius: 15px;
+}
+.tag{
+    padding: 10px;
+    background-color: #f4d04eff;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: 700;
+}
